@@ -1,0 +1,114 @@
+@charset "ISO-8859-1";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap')
+	;
+
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+	position: sticky;
+	background: white;
+	height: 68px;
+	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 25px;
+}
+
+.cont {
+	display: flex;
+	align-items: center;
+	font-family: monospace;
+	font-weight: bold;
+}
+
+.cont img {
+	margin-right: 20px;
+	max-height: 40px;
+}
+
+.cont ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+}
+
+.cont ul li {
+	margin: 0 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.cont ul li#Studio {
+	position: relative;
+	top: -4px;
+}
+
+.cont1 {
+	display: flex;
+	align-items: center;
+	font-family: monospace;
+	font-weight: bold;
+}
+
+.desktop-searchBar {
+	padding: 8px 10px;
+	margin-right: 20px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background-color: #f3f3f3;
+	width: 240px;
+}
+
+.cont1 div {
+	margin-left: 20px;
+	text-align: center;
+}
+
+#timer {
+	background-color: #f3f3f3;
+	height: 40px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+#timer span {
+	color: pink !important; 
+}
+
+ul li ul  {
+	
+	display: block;
+	position: absolute;
+	background-color: #fff; 
+	padding: 10px;
+		
+}
+ul li ul a{
+	text-decoration: none;
+	display: none;
+}
+
+ul li:hover ul  {
+	display: block;
+	text-decoration: none;
+}
+ul li:hover ul a {
+	display: block;
+	text-decoration: none;
+}
+
+
+
